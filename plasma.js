@@ -4,7 +4,7 @@
 //----------------------------------
 
 var metadata = document.querySelector("head");
-var styles = document.querySelector("styles");
+var styles = document.querySelector("style");
 window.onload = function start() {
 	metadata.innerHTML += 
 	`<style>
@@ -35,8 +35,8 @@ function cssId(idTitle, idStyles) {
 }
 function button(value, command, cssClass, cssId) {
 	// Creates an html <button></button> tag.
-	document.body.innerHTML += `<button class = "`+cssClass+`" id = "`+cssID+`" onclick = "`+command+`()">`+value+`</button>`;
+	document.body.innerHTML += `<button class = "`+cssClass+`" id = "`+cssId+`" onclick = "`+command+`()">`+value+`</button>`;
 }
 function text(text, cssClass, cssId) {
-	document.body.innerHTML += `<p class = "`+cssClass+`" id = "`+cssID+`">`+text+`</p>`;
+	document.body.innerHTML += `<p class = "`+cssClass+`" id = "`+cssId+`">`+text+`</p>`;
 }
