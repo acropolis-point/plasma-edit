@@ -14,7 +14,7 @@ You can create a Plasma.JS project by creating a folder on your device, with thr
     <style></style>
   </head>
   <body>
-    <script src = "https://raw.githubusercontent.com/acropolis-point/plasma.js/master/src/plasma.js"></script>
+    <script src = "https://raw.githubusercontent.com/acropolis-point/plasma.js/master/plasma.js"></script>
     <script src = "main.js"></script>
   </body>
 </html>
