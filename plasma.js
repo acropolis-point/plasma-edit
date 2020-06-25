@@ -33,6 +33,9 @@ function cssId(idTitle, idStyles) {
 	// Do not repeat IDs.
 	styles.textContent += `#`+idTitle+` { `+idStyles+` }`;
 }
+function setTitle(appTitle) {
+	metadata.innerHTML += `<head>`+appTitle+`</head>`;
+}
 function button(value, command, cssClass, cssId) {
 	// Creates an html <button></button> tag.
 	document.body.innerHTML += `<button class = "`+cssClass+`" id = "`+cssId+`" onclick = "`+command+`()">`+value+`</button>`;
