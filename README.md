@@ -6,14 +6,15 @@ Plasma JS is a pure Javascript GUI toolkit, like Tkinter. All you need to do is 
 
 Plasma JS is designed to be lightweight, and accessible to everybody. The only external dependencies are a web browser with JavaScript enabled, and a text editor such as Sublime Text or Atom.
 
-You can create a Plasma.JS project by creating a folder on your device, with three files: index.html, main.js, and style.css. In index.html, enter the following code:
+You can create a Plasma.JS project by creating a folder on your device, with three files: index.html and main.js. In index.html, enter the following code:
 ``` html
 <!DOCTYPE html>
 <html>
   <head>
   </head>
   <body>
-    <script src = ""
+    <script src = "https://raw.githubusercontent.com/acropolis-point/plasma.js/master/src/plasma.js"></script>
   </body>
 </html>
 ```
+Main.js is your plasmaJS client. You will enter commands there.
